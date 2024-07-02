@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom right, rgb(54, 49, 49), rgb(177, 177, 156), rgb(75, 65, 65));
+}
+.introduction {
+    margin: 20px;
+    padding: 10px;
+}
+.introduction .profile_pic {
+    float: left;
+}
+.introduction .profile_pic h1 {
+    font-size: 2.5rem;
+}
+.profile_pic h1 strong {
+    color: navy;
+
+}
+p, li {
+    font-size: 1.5em;
+}
+.profile_pic image {
+    width: ;
+}
