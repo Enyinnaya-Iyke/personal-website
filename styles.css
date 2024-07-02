@@ -50,3 +50,10 @@ main span {
 main h3 {
     border-bottom: 2px solid grey;
 }
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer .links a {
+    margin: 10px;
+}
