@@ -9,10 +9,10 @@
 <body>
     <section class="introduction">
         <div class="profile_pic">
-            <h1>Hi, i'm <strong>Enyinnaya Iyke</strong></h1>
+            <h1>Hi, i'm <strong data-testid="slackDisplayName">Enyinnaya Iyke</strong></h1>
             <p>follow me on my <i>tech journey</i></p>
-            <img src="images/profile_image.jpg" alt="my profile image">
-            <p>Send me an email: <a href="mailto:enyinnayaiyke0@gmail.com">enyinnayaiyke0@gmail.com</a></p>
+            <img src="images/profile_image.jpg" alt="my profile image" data-testid="slackProfilePicture">
+            <p>Send me an email: <a href="mailto:enyinnayaiyke0@gmail.com"  data-testid="slackEmail">enyinnayaiyke0@gmail.com</a></p>
         </div>
         <div class="intro-text">
             <p>
@@ -47,13 +47,13 @@
     </main>
     <footer>
         <div class="date">
-            <p id="current-day"></p>
-            <p id="current-time"></p>
+            <p id="current-day" data-testid="currentDay"></p>
+            <p id="current-time" data-testid="currentTimeUTC"></p>
         </div>
         <div class="links"> 
-            <a href="http://hng.tech/learn">hngLink</a>
-            <a href="http://keyword.dog/">keywordLink</a>
-            <a href="http://scrapeanyweb.site/">scrapeanywebLink</a>
+            <a href="http://hng.tech/learn" data-testid="hngLink">hngLink</a>
+            <a href="http://keyword.dog/" data-testid="keywordLink">keywordLink</a>
+            <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">scrapeanywebLink</a>
         </div>
     </footer>
 </body>
