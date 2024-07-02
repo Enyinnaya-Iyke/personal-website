@@ -54,6 +54,10 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+footer .date p {
+    display: inline;
+    font-size: small;
+}
 footer .links a {
     margin: 10px;
 }
