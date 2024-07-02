@@ -52,6 +52,8 @@ main h3 {
 }
 footer {
     display: flex;
+    margin: 20px;
+    border-top: 2px solid grey;
     justify-content: space-around;
 }
 footer .date p {
