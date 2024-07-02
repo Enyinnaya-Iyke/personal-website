@@ -11,6 +11,8 @@ body {
 }
 .introduction .profile_pic {
     float: left;
+    margin-bottom: 30px;
+    margin-right: 50px;
 }
 .introduction .profile_pic h1 {
     font-size: 2.5rem;
@@ -19,9 +21,32 @@ body {
     color: navy;
 
 }
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 p, li {
     font-size: 1.5em;
 }
-.profile_pic image {
-    width: ;
+.profile_pic img {
+    width: 100%;
+}
+.intro-text p {
+    margin: 10% auto;
+    text-align: center;
+    font-size: 2.0rem;
+    padding-top: 30px;
+}
+main {
+    display: flex;
+    margin: 0 10px;
+}
+main span {
+    color: rgb(133, 77, 5);
+}
+main h3 {
+    border-bottom: 2px solid grey;
 }
